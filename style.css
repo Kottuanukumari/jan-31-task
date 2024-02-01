@@ -185,4 +185,13 @@ background-image: url('https://www.shutterstock.com/image-photo/overturned-shopp
     width: 400px;
     height: 400px;
 }
+.product-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 40px;
+}
+.product-item{
+    text-align: center;
+}
+
 
